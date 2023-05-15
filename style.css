@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(pexels-dustin-cox-159884.jpg);
+    
+    min-height: 100%;
+    
+}
+.pimg2{
+    background-image: url(pexels-krish-chaitu-731423.jpg);
+    min-height: 100%;
+}
+.pimg3{
+    background-image: url(pexels-kristina-paukshtite-1444619.jpg);
+    min-height: 100%; 
+}
+.pimg1,.pimg2,.pimg3{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+   
+
+}
+.textBg{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+section{
+    padding: 50px 80px;
+    
+}
+p{
+    text-align: justify;
+    margin-top: 10px;
+}
+.section-one{
+    background-color: rgba(255, 255, 255, 0.71);
+    color: rgb(30, 30, 41);
+}
+.section-two{
+    background-color: #131920;
+    color: rgba(255, 255, 255, 0.71);
+}
+h1,h2,h3{
+    text-transform: uppercase;
+    text-align: center;
+}
